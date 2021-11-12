@@ -32,10 +32,17 @@ We are installing prop-types to document the intended types of properties passed
 
 - [react-bootstrap](https://react-bootstrap.github.io/) Click For Documentation
 - [prop-types](https://www.npmjs.com/package/prop-types) Click For Documentation
+- 
+Install NodeJs to be able to do 'npm'
 
 ```sh
 npm install react-bootstrap bootstrap
 npm i prop-types
+```
+Start Project
+```
+cd Melon_Soda\frontend
+npm start
 ```
 
 ```sh
