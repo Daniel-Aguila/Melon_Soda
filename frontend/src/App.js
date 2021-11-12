@@ -7,12 +7,12 @@ import {AddTicket} from './pages/AddTicket.page'
 function App() {
   return (
     <div className="App">
-      {/* <Entry/> */}
       <DefaultLayout>
         {/*<Dashboard/>*/}
-        {<AddTicket/>}
+        <AddTicket/>
+        {/*<Entry/>*/}
       </DefaultLayout>
-    </div>
+    </div> 
   );
 };
 

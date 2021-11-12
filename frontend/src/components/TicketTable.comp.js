@@ -7,7 +7,6 @@ export const TicketTable = ({tickets}) =>{
             {/* Table Header */}
             <Table variant="dark" hover bordered>
                 <thead>
-
                     <tr>
                         <th>#</th>
                         <th>Subjects</th>
