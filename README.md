@@ -35,6 +35,11 @@ We are installing prop-types to document the intended types of properties passed
 - 
 Install NodeJs to be able to do 'npm'
 
+Then go to your cmd and type
+```
+npm install
+```
+
 ```sh
 npm install react-bootstrap bootstrap
 npm i prop-types
