@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container,Row,Col, Form} from 'react-bootstrap'
+import {Container,Row,Col,Form} from 'react-bootstrap'
 
 export const AddTicket = () => {
     return (
@@ -7,4 +7,4 @@ export const AddTicket = () => {
             ADD FORM
         </Container>
     )
-}
+};
