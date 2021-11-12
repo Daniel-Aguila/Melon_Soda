@@ -27,8 +27,14 @@ Melon Soda requires [Node.js](https://nodejs.org/) v10+ to run the following pro
 
 Install the dependencies and devDependencies and start the server.
 
+We are installing bootstrap to make the UI more dynamic and faster with premade settings
+We are installing prop-types to document the intended types of properties passed to components
+
+-[react-bootstrap](https://react-bootstrap.github.io/)
+-[prop-types](https://www.npmjs.com/package/prop-types)
 ```sh
 npm install react-bootstrap bootstrap
+npm i prop-types
 ```
 
 ```sh
