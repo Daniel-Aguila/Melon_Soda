@@ -23,8 +23,8 @@ const handleOnChange = event =>{
         case 'password':
             setPassword(value)
             break
-            default:
-                break
+        default:
+            break
     }
     console.log(name, value);
 };

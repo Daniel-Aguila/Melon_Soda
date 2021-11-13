@@ -3,8 +3,6 @@ import {Container,Row,Col,Form} from 'react-bootstrap'
 import {AddTicketForm} from '../components/AddTicketForm.comp'
 import './AddTicket.style.css';
 
-
-
 export const AddTicket = () => {
 
     //useState allows us to sate components
