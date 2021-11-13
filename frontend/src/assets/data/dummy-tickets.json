@@ -3,29 +3,89 @@
         "id":1,
         "subject": "Lost Package",
         "status": "Client Response Pending",
-        "addedAt": "11/11/2021"
+        "addedAt": "11/11/2021",
+        "history": [
+            {
+                "date": "21-11-11",
+                "message": "message",
+                "messageBy": "client"
+            },
+            {
+                "date": "21-11-12",
+                "message": "message",
+                "messageBy": "client"
+            },
+            {
+                "date": "21-11-12",
+                "message": "message",
+                "messageBy": "client"
+            },
+            {
+                "date": "21-11-12",
+                "message": "message",
+                "messageBy": "client"
+            }
+        ]
     },
     {
         "id":2,
         "subject": "Losta",
         "status": "Client Response Pending",
-        "addedAt": "11/11/2021"
+        "addedAt": "11/11/2021",
+        "history": [
+            {
+                "date": "21-11-12",
+                "message": "message",
+                "messageBy": "client"
+            },
+            {
+                "date": "21-11-12",
+                "message": "message",
+                "messageBy": "client"
+            },
+            {
+                "date": "21-11-12",
+                "message": "message",
+                "messageBy": "client"
+            }
+        ]
     },
     {
         "id":3,
         "subject": "Losto",
         "status": "Client Response Pending",
-        "addedAt": "11/11/2021"
+        "addedAt": "11/11/2021",
+        "history": [
+            {
+                "date": "21-11-13",
+                "message": "message",
+                "messageBy": "client"
+            }
+        ]
     },
     {
         "id":4,
         "subject": "SHA",
         "status": "Client Response Pending",
-        "addedAt": "11/11/2021"
+        "addedAt": "11/11/2021",
+        "history": [
+            {
+                "date": "21-11-14",
+                "message": "message",
+                "messageBy": "client"
+            }
+        ]
     },{
         "id":5,
         "subject": "ABC",
         "status": "Client Response Pending",
-        "addedAt": "11/11/2021"
+        "addedAt": "11/11/2021",
+        "history": [
+            {
+                "date": "21-11-11",
+                "message": "message",
+                "messageBy": "client"
+            }
+        ]
     }
 ]
