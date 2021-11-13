@@ -2,7 +2,7 @@
 ## hackMISSO Fall 2021
 
 Melon Soda is a team competing in the hackMISSO Fall 2021 competition.
-Melon Soda consists of fourt members
+Melon Soda consists of four members
 
 - Vanessa  
 - Denny
