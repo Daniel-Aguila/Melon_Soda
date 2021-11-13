@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import {TicketTable} from '../components/TicketTable.comp'
 import tickets from '../assets/data/dummy-tickets.json'
 
-export const TicketListTable = ({handleOnChange, search}) =>{
+export const TicketListTable = ({handleOnChange, search, displayTicket}) =>{
     return(
     <Container>
         <Row>
@@ -23,7 +23,7 @@ export const TicketListTable = ({handleOnChange, search}) =>{
         <hr/>
         <Row>
             <Col>
-                <TicketTable tickets={tickets}/>
+                <TicketTable tickets={displayTicket}/>
             </Col>
         </Row>
     </Container>
