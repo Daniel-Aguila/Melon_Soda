@@ -3,6 +3,7 @@ import {Container, Col, Row, Button} from 'react-bootstrap';
 import tickets from '../assets/data/dummy-tickets.json'
 import { MessageHistory } from '../components/MessageHistory.comp';
 import { UdpateTicket } from '../components/UpdateTicket.comp';
+import { DefaultLayout } from '../layout/DefaultLayout';
 
 const ticket = tickets[0];
 export const Ticket = () =>{
@@ -21,6 +22,7 @@ export const Ticket = () =>{
     };
 
     return(
+        <DefaultLayout>
         <Container>
             <Row>
                 <Col>
@@ -43,5 +45,6 @@ export const Ticket = () =>{
                 </Col>
             </Row>
         </Container>
+        </DefaultLayout>
     )
 };

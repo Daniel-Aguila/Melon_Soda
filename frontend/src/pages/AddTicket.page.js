@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {Container,Row,Col,Form} from 'react-bootstrap'
 import {AddTicketForm} from '../components/AddTicketForm.comp'
 import './AddTicket.style.css';
+import {DefaultLayout} from '../layout/DefaultLayout';
 
 export const AddTicket = () => {
 
@@ -43,6 +44,7 @@ const handleOnSubmit = event =>{
 };
 
     return (
+        <DefaultLayout>
             <Container>
                 <Row>
                     <Col>
@@ -50,5 +52,6 @@ const handleOnSubmit = event =>{
                     </Col>
                 </Row>
             </Container>
+        </DefaultLayout>
     )
 };
