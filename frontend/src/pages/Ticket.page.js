@@ -4,6 +4,7 @@ import tickets from '../assets/data/dummy-tickets.json'
 import { MessageHistory } from '../components/MessageHistory.comp';
 import { UdpateTicket } from '../components/UpdateTicket.comp';
 import { DefaultLayout } from '../layout/DefaultLayout';
+import { Link } from 'react-router-dom';
 
 const ticket = tickets[0];
 export const Ticket = () =>{

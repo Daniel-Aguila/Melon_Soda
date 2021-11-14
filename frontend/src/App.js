@@ -5,28 +5,29 @@ import {AddTicket} from './pages/AddTicket.page'
 import {TicketLists} from './pages/TicketLists.page'
 import {Ticket} from './pages/Ticket.page'
 import React from 'react';
+import { PrivateRoute } from './components/PrivateRoute.comp';
 import {
   BrowserRouter as Router,
-  Routes,
+  Switch,
   Route,
   Link
 } from 'react-router-dom';
 
-//You need to engulf everything in router and Routes, and then assign their designated paths
+//You need to engulf everything in router and Switch, and then assign their designated paths
 function App() {
   return (
     <div className="App">
       <Router>
-      <Routes>
-        <Route exact path="/" element={<Entry/>}/>
+      <Switch>
+        <Route exact path="/"><Entry/></Route>
 
-          <Route path="/dashboard" element={<Dashboard/>}/>
-          <Route path="/add-ticket" element={<AddTicket/>}/>
-          <Route path="/tickets" element={<TicketLists/>}/>
-          <Route path="/ticket/:tid" element={<Ticket/>}/>
+          <PrivateRoute path="/dashboard"><Dashboard/></PrivateRoute>
+          <PrivateRoute path="/add-ticket"><AddTicket/></PrivateRoute>
+          <PrivateRoute path="/tickets"><TicketLists/></PrivateRoute>
+          <PrivateRoute path="/ticket/:tid"><Ticket/></PrivateRoute>
 
 
-      </Routes>
+      </Switch>
       </Router>
     </div> 
   );

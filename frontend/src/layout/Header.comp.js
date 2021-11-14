@@ -1,12 +1,12 @@
 import React from 'react'
 import {Container,Navbar,Nav} from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 export const Header = () =>{
-    const history = useNavigate();
+    const history = useHistory();
     const logMeOut = () =>{
-        history("/");
+        history.push('/');
     }
 
     return (
