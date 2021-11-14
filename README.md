@@ -32,7 +32,7 @@ We are installing prop-types to document the intended types of properties passed
 
 - [react-bootstrap](https://react-bootstrap.github.io/) Click For Documentation
 - [prop-types](https://www.npmjs.com/package/prop-types) Click For Documentation
-- [react-router-bootstrap](https://reactrouter.com/) Click For Documentation
+- [react-router](https://reactrouter.com/) Click For Documentation
 
 Install NodeJs to be able to do 'npm'
 
@@ -45,6 +45,7 @@ npm install
 npm install react-bootstrap bootstrap
 npm i prop-types
 npm i react-router-bootstrap
+npm i react-router-dom
 ```
 Start Project
 ```
