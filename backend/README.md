@@ -1,8 +1,3 @@
-# CRM Ticket system API
-
-This api is a part of create CRM Ticket with MERN stack from scratch tutorial series.
-Link for the series is https://www.youtube.com/watch?v=XWbEzWSKBfs&t=413s&ab_channel=DentedCode
-
 # How to use
 
 - run 'git clone ...'
