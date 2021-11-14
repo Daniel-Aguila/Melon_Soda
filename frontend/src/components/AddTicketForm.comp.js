@@ -32,6 +32,7 @@ export const AddTicketForm = ({handleOnSubmit, handleOnChange, subject, date, de
     )
 };
 
+
 AddTicketForm.propTypes = {
     handleOnChange: PropTypes.func.isRequired,
     handleOnSubmit: PropTypes.func.isRequired,
