@@ -3,7 +3,8 @@ import {Button,Container,Row,Col} from 'react-bootstrap';
 import {TicketTable} from '../components/TicketTable.comp';
 import tickets from '../assets/data/dummy-tickets.json'
 import { DefaultLayout } from '../layout/DefaultLayout';
-
+import { Spinner } from 'react-bootstrap';
+import './Dashboard.style.css'
 export const Dashboard = () => {
     return(
         <DefaultLayout>
@@ -18,11 +19,10 @@ export const Dashboard = () => {
                 {/* mt is margin top, and mb is margin bottom */}
             </Row>
             <hr/>
-            <Row>
-                <Col className="recent-ticket">
-                    <TicketTable tickets={tickets}/>
-                </Col>
-            </Row>
+            <div className="Home">
+            <h1>Inovation.</h1><Spinner animation="grow">
+            </Spinner>
+            </div>
         </Container>
         </DefaultLayout>
     )
